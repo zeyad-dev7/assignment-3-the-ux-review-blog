@@ -1,0 +1,425 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment 3</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="header" class="navbar-wrapper">
+      <div class="navbar">
+        <div class="navbar-logo">
+          <a href="#"><span style="color: #111">The UX </span><span style="color: oklch(70.5% 0.213 47.604)"> Review</span></a>
+        </div>
+
+        <a href="#mobile-menu" class="mobile-menu-img xl:hidden"><i class="fa-solid fa-bars"></i></a>
+
+        <div class="main-nav xl:block">
+          <ul>
+            <li><a href="#">HOME</a><i class="fa-solid fa-star" style="font-size: 0.875rem; color: oklch(87.2% 0.01 258.338); margin-left: 1rem"></i></li>
+            <li><a href="#">LATEST ARTICLES</a><i class="fa-solid fa-star" style="font-size: 0.875rem; color: oklch(87.2% 0.01 258.338); margin-left: 1rem"></i></li>
+            <li><a href="#">AUTHORS </a><i class="fa-solid fa-star" style="font-size: 0.875rem; color: oklch(87.2% 0.01 258.338); margin-left: 1rem"></i></li>
+            <li><a href="#">COMMUNITY</a><i class="fa-solid fa-star" style="font-size: 0.875rem; color: oklch(87.2% 0.01 258.338); margin-left: 1rem"></i></li>
+          </ul>
+        </div>
+
+        <div class="header-actions xl:block"><a href="#">SUBSCRIBE NOW</a></div>
+
+        <div id="mobile-menu" class="mobile-menu-container">
+          <div class="mobile-menu-content">
+            <div class="menu-header">
+              <div>MENU</div>
+              <a href="#" class="mobile-menu-close"><i class="fa-solid fa-xmark" style="color: rgb(0, 0, 0)"></i></a>
+            </div>
+
+            <div class="menu-nav">
+              <a href="#">HOME</a>
+              <a href="#">LATEST ARTICLES</a>
+              <a href="#">AUTHORS</a>
+              <a href="#">COMMUNITY</a>
+            </div>
+
+            <div class="menu-footer">
+              <a href="#"><i class="fa-solid fa-rocket" style="color: rgb(0, 0, 0); margin-right: 0.5rem"></i>SUBSCRIBE NOW</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="hero" class="hero-wrapper">
+      <div class="hero-contatiner">
+        <div class="hero lg:grid-cols-2">
+          <div class="hero-content">
+            <div class="trending-tag"><span style="font-size: 0.875rem; font-weight: 700">🔥 TRENDING NOW</span></div>
+
+            <h2>
+              BRUTAL <br />
+              <span style="color: oklch(57.7% 0.245 27.325)">THOUGHTS</span> <br />
+              <span style="color: oklch(54.6% 0.245 262.881)">BOLD IDEAS</span>
+            </h2>
+
+            <p>Raw, unfiltered content about tech, design, and culture. No sugar-coating, just pure truth that hits different.</p>
+
+            <div class="hero-content-btns">
+              <div class="hero-content-btn1">
+                <button><i class="fa-solid fa-rocket" style="color: rgb(255, 255, 255); margin-right: 0.5rem"></i>START READING</button>
+              </div>
+              <div class="hero-content-btn2">
+                <button><i class="fa-solid fa-play" style="color: rgb(0, 0, 0); margin-right: 0.5rem"></i>WATCH INTRO</button>
+              </div>
+            </div>
+          </div>
+
+          <div style="position: relative">
+            <div class="hero-img lg:rotate-2"><img src="images/hero-img.png" /></div>
+            <div class="hero-img-tag"><span style="font-weight: 700">FEATURED</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="latestArticles" class="latest-articles-wrapper">
+      <div class="latest-articles-container lg:grid-cols-3">
+        <div class="latest-articles lg:col-span-2">
+          <div class="latest-articles-header">
+            <h3>LATEST ARTICLES</h3>
+            <div class="sm:block"><span style="font-weight: 700">🔥 FRESH CONTENT</span></div>
+          </div>
+
+          <div class="latest-articles-main">
+            <div class="tech-article lg:flex-row">
+              <div class="tech-article-img lg:mb-0">
+                <img src="images/user-engagement-2.jpg" />
+                <div>NEW</div>
+              </div>
+
+              <div class="tech-article-content">
+                <div class="tech-article-tag">TECH</div>
+
+                <h4>Why Your Website Needs More Edge</h4>
+
+                <p>Exploring the psychological impact of bold, unapologetic design choices on user engagement and brand perception in the digital age.</p>
+
+                <div class="tech-article-stats sm:grid-cols-2 xl:grid-cols-8">
+                  <span class="xl:col-span-3"><i class="fa-solid fa-user" style="color: rgb(0, 0, 0); margin-right: 0.5rem"></i>BY ALEX BRUTAL</span>
+                  <span class="xl:col-span-2"><i class="fa-solid fa-calendar" style="color: rgb(0, 0, 0); margin-right: 0.5rem"></i>JAN 8, 2025</span>
+                  <span class="xl:col-span-2"><i class="fa-solid fa-clock" style="color: rgb(0, 0, 0); margin-right: 0.5rem"></i>5 MIN READ</span>
+                  <span style="color: oklch(57.7% 0.245 27.325)"><i class="fa-solid fa-heart" style="margin-right: 0.25rem"></i>127</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="design-article lg:flex-row">
+              <div class="design-article-img lg:mb-0">
+                <img src="images/guide-to-typography.avif" />
+                <div>HOT</div>
+              </div>
+
+              <div class="design-article-content">
+                <div class="design-article-tag">DESIGN</div>
+
+                <h4>Typography That Screams</h4>
+
+                <p>How to choose and implement bold typography that commands attention without sacrificing readability or user experience.</p>
+
+                <div class="design-article-stats sm:grid-cols-2 xl:grid-cols-8">
+                  <span class="xl:col-span-3"><i class="fa-solid fa-user" style="color: rgb(0, 0, 0); margin-right: 0.5rem"></i>BY Arnold Reeve</span>
+                  <span class="xl:col-span-2"><i class="fa-solid fa-calendar" style="color: rgb(0, 0, 0); margin-right: 0.5rem"></i>JAN 6, 2025</span>
+                  <span class="xl:col-span-2"><i class="fa-solid fa-clock" style="color: rgb(0, 0, 0); margin-right: 0.5rem"></i>7 MIN READ</span>
+                  <span style="color: oklch(57.7% 0.245 27.325)"><i class="fa-solid fa-heart" style="margin-right: 0.25rem"></i>89</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="culture-article lg:flex-row">
+              <div class="culture-article-img lg:mb-0">
+                <img src="images/anti-instagram.jpg" />
+                <div>VIRAL</div>
+              </div>
+
+              <div class="culture-article-content">
+                <div class="culture-article-tag">CULTURE</div>
+
+                <h4>The Anti-Instagram Movement</h4>
+
+                <p>Young creators are abandoning polished feeds for raw, authentic content that celebrates imperfection and real human connection.</p>
+
+                <div class="culture-article-stats sm:grid-cols-2 xl:grid-cols-8">
+                  <span class="xl:col-span-3"><i class="fa-solid fa-user" style="color: rgb(0, 0, 0); margin-right: 0.5rem"></i>BY MIKE EDGE</span>
+                  <span class="xl:col-span-2"><i class="fa-solid fa-calendar" style="color: rgb(0, 0, 0); margin-right: 0.5rem"></i>JAN 4, 2025</span>
+                  <span class="xl:col-span-2"><i class="fa-solid fa-clock" style="color: rgb(0, 0, 0); margin-right: 0.5rem"></i>4 MIN READ</span>
+                  <span style="color: oklch(57.7% 0.245 27.325)"><i class="fa-solid fa-heart" style="margin-right: 0.25rem"></i>203</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="latest-articles-footer">
+            <button><i class="fa-solid fa-plus" style="color: rgb(255, 255, 255); margin-right: 0.5rem"></i>LOAD MORE ARTICLES</button>
+          </div>
+        </div>
+
+        <div class="trending-articles lg:col-span-1">
+          <div class="trending-now">
+            <h4>TRENDING NOW</h4>
+
+            <div class="first-trending-topic">
+              <span>01</span>
+
+              <div>
+                <h5>The Death of Minimalism</h5>
+                <p>12.5K reads • 🔥 Trending</p>
+              </div>
+            </div>
+
+            <div class="second-trending-topic">
+              <span>02</span>
+
+              <div>
+                <h5>Chaos as a Design System</h5>
+                <p>8.2K reads • ⚡ Rising</p>
+              </div>
+            </div>
+
+            <div class="third-trending-topic">
+              <span>03</span>
+
+              <div>
+                <h5>Digital Rebellion</h5>
+                <p>6.7K reads • 💥 Hot</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="categories">
+            <h4>CATEGORIES</h4>
+
+            <div>
+              <span>TECH (24)</span>
+              <span>DESIGN (18)</span>
+              <span>CULTURE (15)</span>
+              <span>OPINION (12)</span>
+              <span>TUTORIALS (9)</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="authors" class="authors-wrapper">
+      <div class="authors-container">
+        <div class="authors-wrapper-title">
+          <h3>MEET THE AUTHORS</h3>
+          <p>The rebels behind the brutal truth</p>
+          <div></div>
+        </div>
+
+        <div class="authors-grid lg:grid-cols-2 xl:grid-cols-3">
+          <div class="first-author">
+            <div class="first-author-img">
+              <img src="images/avatar-1.jpg" alt="test" />
+              <div>FOUNDER</div>
+            </div>
+
+            <h4>ALEX BRUTAL</h4>
+
+            <p>Tech Critic & Design Rebel</p>
+
+            <p>Destroying conventional wisdom one article at a time. 10+ years fighting the good fight against boring design and corporate BS.</p>
+
+            <ul>
+              <li>
+                <a href="#"><i class="fa-brands fa-twitter" style="color: rgb(255, 255, 255); font-size: 1.125rem"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa-brands fa-linkedin" style="color: rgb(255, 255, 255); font-size: 1.125rem"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa-brands fa-instagram" style="color: rgb(255, 255, 255); font-size: 1.125rem"></i></a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="second-author">
+            <div class="second-author-img">
+              <img src="images/avatar-2.jpg" alt="test" />
+              <div>LEAD</div>
+            </div>
+
+            <h4>Arnold Reeve</h4>
+
+            <p>UX Anarchist & Visual Provocateur</p>
+
+            <p>Challenging design norms and creating chaos that actually works. Former corporate designer turned rebel with a cause.</p>
+
+            <ul>
+              <li>
+                <a href="#"><i class="fa-brands fa-twitter" style="color: rgb(255, 255, 255); font-size: 1.125rem"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa-brands fa-linkedin" style="color: rgb(255, 255, 255); font-size: 1.125rem"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa-brands fa-instagram" style="color: rgb(255, 255, 255); font-size: 1.125rem"></i></a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="third-author">
+            <div class="third-author-img">
+              <img src="images/avatar-3.jpg" alt="test" />
+              <div>VIRAL</div>
+            </div>
+
+            <h4>MIKE EDGE</h4>
+
+            <p>Cultural Critic & Trend Destroyer</p>
+
+            <p>Dissecting digital culture and exposing the truth behind viral trends. No filter, just facts that cut through the noise.</p>
+
+            <ul>
+              <li>
+                <a href="#"><i class="fa-brands fa-twitter" style="color: rgb(255, 255, 255); font-size: 1.125rem"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa-brands fa-linkedin" style="color: rgb(255, 255, 255); font-size: 1.125rem"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa-brands fa-instagram" style="color: rgb(255, 255, 255); font-size: 1.125rem"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="community" class="community-wrapper">
+      <div class="community-container">
+        <div class="community-wrapper-title">
+          <h3>JOIN THE REBELLION</h3>
+          <p>Where rebels gather to change the digital world</p>
+          <div></div>
+        </div>
+
+        <div class="community-grid lg:grid-cols-2">
+          <div class="community-invitation">
+            <h4>BECOME PART OF SOMETHING BIGGER</h4>
+
+            <p>Join thousands of designers, developers, and digital rebels who are tired of the same old boring content. Our community is where raw ideas meet bold execution and real change happens.</p>
+
+            <div class="community-advantages">
+              <div class="advantage">
+                <div><i class="fa-solid fa-check" style="color: rgb(255, 255, 255); font-size: 1.25rem"></i></div>
+                <span>Weekly brutal insights newsletter with exclusive content</span>
+              </div>
+              <div class="advantage">
+                <div><i class="fa-brands fa-discord" style="color: rgb(255, 255, 255); font-size: 1.25rem"></i></div>
+                <span>Exclusive community Discord access for real-time discussions</span>
+              </div>
+              <div class="advantage">
+                <div><i class="fa-solid fa-star" style="color: rgb(255, 255, 255); font-size: 1.25rem"></i></div>
+                <span>Early access to new articles before they go public</span>
+              </div>
+              <div class="advantage">
+                <div><i class="fa-solid fa-pen" style="color: rgb(255, 255, 255); font-size: 1.25rem"></i></div>
+                <span>Submit your own brutal takes and get featured</span>
+              </div>
+            </div>
+
+            <div class="invitation-btn">
+              <button><i class="fa-solid fa-rocket" style="color: rgb(255, 255, 255); margin-right: 0.75rem"></i>JOIN NOW - IT'S FREE</button>
+            </div>
+          </div>
+
+          <div class="community-reviews">
+            <h5>WHAT REBELS ARE SAYING</h5>
+
+            <div class="first-review">
+              <p>"Finally, a blog that tells it like it is. No corporate BS, just pure truth about what's really happening in tech. This is the wake-up call our industry needed."</p>
+              <div class="reviewer-info-wrapper">
+                <img src="images/avatar-4.avif" alt="test" />
+                <div class="reviewer-info">
+                  <div>Mark T.</div>
+                  <div>Senior Designer at Meta</div>
+                </div>
+              </div>
+            </div>
+            <div class="second-review">
+              <p>"The UX Review changed how I think about design. It's raw, honest, and exactly what our industry needs. Every article challenges my assumptions."</p>
+              <div class="reviewer-info-wrapper">
+                <img src="images/avatar-5.jpg" alt="test" />
+                <div class="reviewer-info">
+                  <div>ALEX M.</div>
+                  <div>Lead Developer at Stripe</div>
+                </div>
+              </div>
+            </div>
+            <div class="third-review">
+              <p>"The most authentic voice in digital culture. Every article challenges my assumptions and makes me think differently about the work I do."</p>
+              <div class="reviewer-info-wrapper">
+                <img src="images/avatar-6.avif" alt="test" />
+                <div class="reviewer-info">
+                  <div>James K.</div>
+                  <div>Creative Director at Adobe</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-wrapper">
+      <div class="footer-container">
+        <div class="footer-grid md:grid-cols-4 lg:grid-cols-5">
+          <div class="footer-heading md:col-span-4 lg:col-span-2">
+            <div class="footer-title">
+              <div><i class="fa-solid fa-pen-nib" style="color: rgb(0, 0, 0); font-size: 1.5rem"></i></div>
+              <h1>THE UX REVIEW</h1>
+            </div>
+            <p>Raw, unfiltered thoughts on tech, design, and digital culture. No compromise, no corporate speak, just brutal truth that matters.</p>
+          </div>
+
+          <div class="footer-categories md:col-span-1 lg:col-span-1">
+            <h4>CATEGORIES</h4>
+
+            <ul>
+              <li><a href="#">TECH </a></li>
+              <li><a href="#">DESIGN </a></li>
+              <li><a href="#">CULTURE </a></li>
+              <li><a href="#">OPINION </a></li>
+              <li><a href="#">TUTORIALS</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-newsletter md:col-span-3 lg:col-span-2">
+            <h4>NEWSLETTER</h4>
+
+            <p>Get brutal insights delivered weekly. No spam, just truth that cuts through the noise.</p>
+
+            <div class="subscribtion">
+              <input placeholder="YOUR EMAIL ADDRESS" type="email" />
+              <button>SUBSCRIBE</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="copyrights xl:flex-row md:space-y-0">
+          <p>© 2025 The UX Review. ALL RIGHTS RESERVED. STAY BRUTAL.</p>
+          <div class="polices">
+            <a href="#">PRIVACY POLICY</a>
+            <a href="#">TERMS OF USE</a>
+            <a href="#">COOKIE POLICY</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/34c10d1445.js" crossorigin="anonymous"></script>
+  </body>
+</html>
